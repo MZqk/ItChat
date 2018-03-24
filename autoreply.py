@@ -33,5 +33,9 @@ def pic_reply(msg):
     print('get a pic ')
     itchat.send_image('reply.png',toUserName=None)
 
+def add_friend(msg):
+    msg.user.verify()
+    msg.user.send('Nice to meet you!')
+
 itchat.auto_login(enableCmdQR=True,loginCallback=enter)
 itchat.run()
