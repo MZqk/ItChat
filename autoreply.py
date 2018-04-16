@@ -17,6 +17,7 @@ def get_response(msg):
         return r.get('text')
     except:
         return
+
 def enter():
     itchat.send(msg='login successful',toUserName='filehelper')
 
@@ -38,4 +39,4 @@ def add_friend(msg):
     msg.user.send('Nice to meet you!')
 
 itchat.auto_login(enableCmdQR=True,loginCallback=enter)
-itchat.run()
+xitchat.run()

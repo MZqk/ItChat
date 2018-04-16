@@ -327,7 +327,7 @@ class Core(object):
         ''' send attachment
             for options
                 - fileDir: dir for file ready for upload
-                - mediaId: mediaId for file. 
+                - mediaId: mediaId for file.
                     - if set, file will not be uploaded twice
                 - toUserName: 'UserName' key of friend dict
             it is defined in components/messages.py
@@ -338,7 +338,7 @@ class Core(object):
             for options
                 - fileDir: dir for file ready for upload
                     - if it's a gif, name it like 'xx.gif'
-                - mediaId: mediaId for file. 
+                - mediaId: mediaId for file.
                     - if set, file will not be uploaded twice
                 - toUserName: 'UserName' key of friend dict
             it is defined in components/messages.py
@@ -349,7 +349,7 @@ class Core(object):
             for options
                 - fileDir: dir for file ready for upload
                     - if mediaId is set, it's unnecessary to set fileDir
-                - mediaId: mediaId for file. 
+                - mediaId: mediaId for file.
                     - if set, file will not be uploaded twice
                 - toUserName: 'UserName' key of friend dict
             it is defined in components/messages.py
